@@ -125,7 +125,7 @@ from stage.initial_load
 order by random()
 limit 5
 
---Extended secondary load--
+--Extended secondary load (with scd 1\2 and duplicates)--
 
 create table stage.secondary_load_extd as
 	select * from stage.secondary_load
